@@ -15,6 +15,7 @@ function tambah(a, b) {
  * @returns {number}
  */
 function kurang(a, b) {
+    return a - b;
 }
 
 /**
@@ -24,6 +25,7 @@ function kurang(a, b) {
  * @returns {number}
  */
 function kali(a, b) {
+    return a * b;
 }
 
 /**
@@ -33,6 +35,7 @@ function kali(a, b) {
  * @returns {number | string}
  */
 function bagi(a, b) {
+    return b === 0 ? "Tidak bisa membagi dengan nol" : a / b;
 }
 
 /**
