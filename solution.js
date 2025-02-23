@@ -42,6 +42,7 @@ function bagi(a, b) {
  * @returns {number}
  */
 function pangkat(a, b) {
+    return Math.pow(a , b);
 }
 
 /**
