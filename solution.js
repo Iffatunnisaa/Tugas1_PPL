@@ -84,3 +84,58 @@ function isPrima(n) {
 function modulus(a, b) {
     return a % b;
 }
+
+/**
+ * Mengembalikan nilai absolut dari sebuah angka.
+ * @param {number} a 
+ * @returns {number}
+ */
+function absolut(a) {
+    return Math.abs(a);
+}
+
+
+/**
+ * Mengembalikan nilai terbesar dari dua angka.
+ * @param {number} a 
+ * @param {number} b 
+ * @returns {number}
+ */
+function maksimum(a, b) {
+    return Math.max(a, b);
+}
+
+/**
+ * Mengembalikan nilai terkecil dari dua angka.
+ * @param {number} a 
+ * @param {number} b 
+ * @returns {number}
+ */
+function minimum(a, b) {
+    return Math.min(a, b);
+}
+
+/**
+ * Mengembalikan hasil dari a dibulatkan ke bilangan bulat terdekat.
+ * @param {number} a 
+ * @returns {number}
+ */
+function bulatkan(a) {
+    return Math.round(a);
+}
+
+// Export hasil akhir
+module.exports = {
+    tambah,
+    kurang,
+    kali,
+    bagi,
+    pangkat,
+    faktorial,
+    isPrima,
+    modulus,
+    absolut,
+    maksimum,
+    minimum,
+    bulatkan
+};
