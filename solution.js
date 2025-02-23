@@ -25,6 +25,7 @@ function kurang(a, b) {
  * @returns {number}
  */
 function kali(a, b) {
+    return a * b;
 }
 
 /**
