@@ -5,6 +5,7 @@
  * @returns {number}
  */
 function tambah(a, b) {
+    return a + b;
 }
 
 /**
@@ -32,7 +33,6 @@ function kali(a, b) {
  * @returns {number | string}
  */
 function bagi(a, b) {
- 
 }
 
 /**
