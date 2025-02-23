@@ -35,6 +35,7 @@ function kali(a, b) {
  * @returns {number | string}
  */
 function bagi(a, b) {
+    return b === 0 ? "Tidak bisa membagi dengan nol" : a / b;
 }
 
 /**
